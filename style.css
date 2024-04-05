@@ -1,0 +1,83 @@
+*{
+    
+    background: #000;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 150%;
+}
+.logo{
+    
+    padding-top: 10px;
+    padding-left: 800px;
+    width: 8%;
+}
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.campo-texto{
+    border: #00ff2b;
+    height: 500px;
+    color: #00ff2b;
+    margin-top: 90px;
+    margin-left: 200px;
+    text-transform: lowercase;
+}
+::placeholder {color: #00ff2b;}
+.campo-texto:focus{
+        outline: none;
+}
+.mensaje{
+    border: none;
+    background-position: center;
+    background: none;
+/*  background-image: url("/candado.webp");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    color: #00ff2b;
+    margin-left: 350px;
+    margin-top: 90px;
+    height: 500px;
+    position: fixed;
+}
+.mensaje:focus{
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+.btn-encriptar{
+    background-color: none;
+    border: 1px solid #00ff2b;
+    color: #00ff2b;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.btn-desncriptar{
+    background: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+.copiar{
+    border: 1px solid #00ff2b;
+    color: #00ff2b;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 408px;
+    margin-top: 671px;
+    position: absolute;
+    width: 336px;
+}
+.informacion{
+    color: #ffffff;
+    font-size: 12px;
+}

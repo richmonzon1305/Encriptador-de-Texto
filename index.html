@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de Texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=VT323&display=swap" rel="stylesheet">
+</head>
+<header><img class="logo" src="Alura Challenge - Desafío 1 - Lógica/Logo-1.png" ></header>
+<body>
+    <main class="main">
+        <section>
+            <textarea class="campo-texto" id="texto-encriptado" cols="30" rows="10"  
+            placeholder="Texto a encriptar"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()" id="botonEncriptar">Encriptar</button>
+                <button class="btn-desncriptar" onclick="btnDesencriptar()" id="botonDesencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="30" rows="10" id="mensaje-para-copiar"></textarea>
+            <div>
+                <button id="ButtonCopiar" class="copiar" onclick="copyText()">Copiar</button>
+            </div>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+
+
+</body>
+
+
+
+</html>
+
+
+
+
+
+
